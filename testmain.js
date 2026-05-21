@@ -12,7 +12,7 @@ const ADMIN_ID = 7198187218;
 const MONGO_URI = 'mongodb+srv://tanvirahamedsaikot2006_db_user:gk9Lbqb4KpvHP40i@cluster0.zzvt7ww.mongodb.net/SMS_BOT?retryWrites=true&w=majority&appName=Cluster0';
 const REQUIRED_CHANNELS = ['@mihadurrohaman', '@primemethod32', '@primebackupchenel'];
 const OTP_FILE = path.join(__dirname, 'ootp.json');
-const MINI_APP_URL = 'https://your-mini-app-url.vercel.app'; // এখানে আপনার হোস্ট করা লিংক দিবেন
+const MINI_APP_URL = 'https://tanvirahamedsaikot2006-star.github.io/primr-number/'; // এখানে আপনার হোস্ট করা লিংক দিবেন
 
 if (process.env.IS_CHILD !== 'true') {
     function startBot() {
